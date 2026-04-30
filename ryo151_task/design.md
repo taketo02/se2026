@@ -24,4 +24,4 @@
 - **フロントエンド**: React (Web) または Flutter (Mobile)
 - **バックエンド**: Node.js + Express
 - **データベース**: SQLite (軽量な個人利用を想定)
-- **インフラ**: Vercel または Firebase
+- **インフラ**: Vercel または Firebase 
