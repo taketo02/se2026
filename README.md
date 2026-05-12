@@ -10,6 +10,7 @@
 
 ```
 se2026/
-|- chia_sensei/
-|- 各自のフォルダ/
+|-- README.md          このファイル
+|-- chia_sensei/       参考フォルダ
+`-- your_name/　  学生用 
 ```
