@@ -106,7 +106,6 @@ def toggle_complete():
             
             # 状態を反転
             new_status = 0 if row[0] == 1 else 1
-            cursor.execute("UPDATE todos WHERE id = ?", (todo_id,))
             cursor.execute("UPDATE todos SET is_completed = ? WHERE id = ?", (new_status, todo_id))
             conn.commit()
         print(f"🔄 ID {todo_id} の状態を更新しました。")
